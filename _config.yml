@@ -1,49 +1,42 @@
-# The Site Configuration
+# Configuracion del  sitio
 
-# Import the theme
+# Tema
 theme: jekyll-theme-chirpy
 
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
-lang: en
+# Idioma
+lang: es-ES
 
-# Change to your timezone › https://zones.arilyn.cc
-timezone:
+# Zona horaria
+timezone: America/Mexico_City
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Blog de Enchantress1579 # Titulo
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Libros, juegos y mas. # Subtitulo
 
-description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+description: >- # Descripcion
+  Mi blog personal.
 
-# Fill in the protocol & hostname for your site.
-# E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+# Direccion web
+url: "https://Enchantress1579.github.io"
 
 github:
-  username: github_username # change to your GitHub username
+  username: Enchantress1579 # Nombre de usuario de GitHub
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: # Nombre de usuario de Twitter
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  # Nombre completo (Autor)
+  name: Abraham Castro Nieto
+  email: Enchantress1579@protonmail.com # Email
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    # El primer elemento sirve como el copyright owner's link
+    - https://github.com/Enchantress1579 # Pagina de GitHub
+    # Se pueden agregar mas paginas
 
 # Site Verification Settings
 webmaster_verifications:
@@ -89,7 +82,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode: dark # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -98,7 +91,7 @@ theme_mode: # [light | dark]
 # e.g. 'https://cdn.com'
 cdn:
 
-# the avatar on sidebar, support local or CORS resources
+# Imagen para un avatar, por ejemplo: /assets/img/avatar.png
 avatar:
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
@@ -120,25 +113,25 @@ actions:
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
-  provider: # [disqus | utterances | giscus]
+  provider: giscus # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo: # <gh-username>/<repo>
+    repo: Enchantress1579/Enchantress1579.github.io # <gh-username>/<repo>
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
+    repo: Enchantress1579/Enchantress1579.github.io # <gh-username>/<repo>
     repo_id:
-    category:
+    category: Announcements
     category_id:
-    mapping: # optional, default to 'pathname'
-    strict: # optional, default to '0'
-    input_position: # optional, default to 'bottom'
-    lang: # optional, default to the value of `site.lang`
-    reactions_enabled: # optional, default to the value of `1`
+    mapping: pathname # optional, default to 'pathname'
+    strict: 0 # optional, default to '0'
+    input_position: bottom # optional, default to 'bottom'
+    lang: es # optional, default to the value of `site.lang`
+    reactions_enabled: 1 # optional, default to the value of `1`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
